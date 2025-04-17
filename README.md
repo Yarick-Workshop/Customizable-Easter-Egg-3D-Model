@@ -48,7 +48,7 @@ TODO add
 ## Contact me
 
 To follow the progress go to my channels:
-  - Telegram: [https://t.me/YarickWorkshop](https://t.me/YarickWorkshop/316)
+  - Telegram: [https://t.me/YarickWorkshop](https://t.me/YarickWorkshop/638)
   - YouTube: https://www.youtube.com/@yarick-workshop
 
 Yeah, they both are in Russian.
