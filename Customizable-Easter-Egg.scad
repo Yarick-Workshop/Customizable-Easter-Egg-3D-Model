@@ -18,11 +18,13 @@ module easter_egg()
         let (
              z = sin(i),
              t = 1 + (i + 90) / 180,
-             r = t * cos(i) * 0.5 
+             r = t * cos(i) * 0.5
         ) 
     [ z, r ] ];
-    
-    rotated_objects(egg_points);
+
+    translate([0, 0, 1])
+        mirror([0, 0, 1])
+            rotated_objects(egg_points);
     
     echo(len(egg_points));
 }
