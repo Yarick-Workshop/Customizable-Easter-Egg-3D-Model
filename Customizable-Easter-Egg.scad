@@ -5,8 +5,9 @@
 
 // The lower the value, the smoother the surface
 Step_Angle = 10;//[1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90]
-$fn = 360 / Step_Angle;
+Surface_Color = "Brown";// [Black, Blue, Brown, Chartreuse, Green, Gold, Magenta, Orange, Purple, Red, Silver, Teal, Violet, White, Yellow]
 
+$fn = 360 / Step_Angle;
 
 module rotated_objects(z_r_pairs)
 {
@@ -32,4 +33,5 @@ module easter_egg()
     echo(len(egg_points));
 }
 
-easter_egg();
+color(Surface_Color)
+    easter_egg();
