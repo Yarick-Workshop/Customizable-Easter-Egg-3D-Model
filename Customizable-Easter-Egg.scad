@@ -13,25 +13,25 @@ $fn = Number_of_Fragments;
 stepAngle = 180 / Number_of_Fragments;
 scalingFactor = Egg_Length / 2;
 
-module rotated_objects(z_r_pairs)
+module draw_rotated_objects(z_r_pairs)
 {
     rotate_extrude(angle=360, convexity = 2)
         rotate([0, 0, 90])
             polygon(z_r_pairs);
 }
 
-module whole_Easter_egg() 
+module draw_whole_Easter_egg() 
 {
     translate([0, 0, 1])
-        Easter_egg_internal();
+        draw_Easter_egg_internal();
 }
 
-module two_halves_of_Easter_egg() 
+module draw_two_halves_of_Easter_egg() 
 {
     // top part
     difference()
     {
-        Easter_egg_internal();
+        draw_Easter_egg_internal();
         translate([0, 0, -1])
             cube([2, 2, 2], center = true);
     }
@@ -41,41 +41,41 @@ module two_halves_of_Easter_egg()
         rotate([0, 180, 0])
             difference()
             {
-                Easter_egg_internal();
+                draw_Easter_egg_internal();
                 translate([0, 0, 1])
                     cube([2, 2, 2], center = true);
             }
 }
 
-module demo_Easter_eggs()
+module draw_demo_Easter_eggs()
 {
     angle = -20;
     distance = 1.27;
     
     color("Brown")
         rotate([0, 0, -20])
-            whole_Easter_egg();
+            draw_whole_Easter_egg();
     
     color("Teal")
         rotate([0, 0, 30])
             translate([0, distance, 0])
                 rotate([angle, 0, 0])
-                    whole_Easter_egg();
+                    draw_whole_Easter_egg();
     
     color("Chartreuse")
         rotate([0, 0, 150])
             translate([0, distance, 0])
                 rotate([angle, 0, 0])
-                    whole_Easter_egg();
+                    draw_whole_Easter_egg();
     
     color("Gold")
         rotate([0, 0, -90])
             translate([0, distance, 0])
                 rotate([angle, 0, 0])
-                    whole_Easter_egg();
+                    draw_whole_Easter_egg();
 }
 
-module Easter_egg_internal() 
+module draw_Easter_egg_internal() 
 {
     egg_points = [for (i = [-90 : stepAngle : 90])
         let (
@@ -86,23 +86,23 @@ module Easter_egg_internal()
     [ z, r ] ];
 
     mirror([0, 0, 1])
-        rotated_objects(egg_points);
+        draw_rotated_objects(egg_points);
 }
 
 scale([scalingFactor, scalingFactor, scalingFactor])
     if (Rendering_Type == "Whole Egg")
     {
         color(Surface_Color)
-            whole_Easter_egg();
+            draw_whole_Easter_egg();
     }
     else if (Rendering_Type == "Two Halves")
     {
         color(Surface_Color)
-            two_halves_of_Easter_egg();
+            draw_two_halves_of_Easter_egg();
     }
     else if (Rendering_Type == "Demo")
     {
-        demo_Easter_eggs();
+        draw_demo_Easter_eggs();
     }
     else
     {
