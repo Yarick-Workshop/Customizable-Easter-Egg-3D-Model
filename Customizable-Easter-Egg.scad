@@ -105,5 +105,5 @@ scale([scalingFactor, scalingFactor, scalingFactor])
     }
     else
     {
-        echo("Rendering_Type should be either 'Whole Egg' or 'Two Halves'");
-}
+        echo("Rendering_Type should be either 'Whole Egg', 'Two Halves' or 'Demo'!");
+    }
