@@ -4,7 +4,7 @@
 // So at the rights of a Pioneer I call it "Ivan's formula" in name of my father.
 
 // The lower the value, the smoother the surface
-Step_Angle = 10;//[1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60]
+Step_Angle = 10;//[1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90]
 $fn = 360 / Step_Angle;
 
 
