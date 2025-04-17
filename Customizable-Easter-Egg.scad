@@ -19,18 +19,18 @@ module rotated_objects(z_r_pairs)
             polygon(z_r_pairs);
 }
 
-module whole_easter_egg() 
+module whole_Easter_egg() 
 {
     translate([0, 0, 1])
-        easter_egg_internal();
+        Easter_egg_internal();
 }
 
-module two_halves_of_easter_egg() 
+module two_halves_of_Easter_egg() 
 {
     // top part
     difference()
     {
-        easter_egg_internal();
+        Easter_egg_internal();
         translate([0, 0, -1])
             cube([2, 2, 2], center = true);
     }
@@ -40,41 +40,41 @@ module two_halves_of_easter_egg()
         rotate([0, 180, 0])
             difference()
             {
-                easter_egg_internal();
+                Easter_egg_internal();
                 translate([0, 0, 1])
                     cube([2, 2, 2], center = true);
             }
 }
 
-module demo_easter_eggs()
+module demo_Easter_eggs()
 {
     angle = -20;
     distance = 1.27;
     
     color("Brown")
         rotate([0, 0, -20])
-            whole_easter_egg();
+            whole_Easter_egg();
     
     color("Teal")
         rotate([0, 0, 30])
             translate([0, distance, 0])
                 rotate([angle, 0, 0])
-                    whole_easter_egg();
+                    whole_Easter_egg();
     
     color("Chartreuse")
         rotate([0, 0, 150])
             translate([0, distance, 0])
                 rotate([angle, 0, 0])
-                    whole_easter_egg();
+                    whole_Easter_egg();
     
     color("Gold")
         rotate([0, 0, -90])
             translate([0, distance, 0])
                 rotate([angle, 0, 0])
-                    whole_easter_egg();
+                    whole_Easter_egg();
 }
 
-module easter_egg_internal() 
+module Easter_egg_internal() 
 {
     egg_points = [for (i = [-90 : Step_Angle : 90])
         let (
@@ -92,16 +92,16 @@ scale([scalingFactor, scalingFactor, scalingFactor])
     if (Rendering_Type == "Whole Egg")
     {
         color(Surface_Color)
-            whole_easter_egg();
+            whole_Easter_egg();
     }
     else if (Rendering_Type == "Two Halves")
     {
         color(Surface_Color)
-            two_halves_of_easter_egg();
+            two_halves_of_Easter_egg();
     }
     else if (Rendering_Type == "Demo")
     {
-        demo_easter_eggs();
+        demo_Easter_eggs();
     }
     else
     {
