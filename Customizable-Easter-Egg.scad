@@ -7,8 +7,10 @@ Rendering_Type="Whole Egg";// [Whole Egg, Two Halves, Demo]
 // The lower the value, the smoother the surface
 Step_Angle = 10;//[1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90]
 Surface_Color = "Brown";// [Black, Blue, Brown, Chartreuse, Green, Gold, Magenta, Orange, Purple, Red, Silver, Teal, Violet, White, Yellow]
+Egg_Length = 57;
 
 $fn = 360 / Step_Angle;
+scalingFactor = Egg_Length / 2;
 
 module rotated_objects(z_r_pairs)
 {
@@ -86,21 +88,22 @@ module easter_egg_internal()
         rotated_objects(egg_points);
 }
 
-if (Rendering_Type == "Whole Egg")
-{
-    color(Surface_Color)
-        whole_easter_egg();
-}
-else if (Rendering_Type == "Two Halves")
-{
-    color(Surface_Color)
-        two_halves_of_easter_egg();
-}
-else if (Rendering_Type == "Demo")
-{
-    demo_easter_eggs();
-}
-else
-{
-    echo("Rendering_Type should be either 'Whole Egg' or 'Two Halves'");
+scale([scalingFactor, scalingFactor, scalingFactor])
+    if (Rendering_Type == "Whole Egg")
+    {
+        color(Surface_Color)
+            whole_easter_egg();
+    }
+    else if (Rendering_Type == "Two Halves")
+    {
+        color(Surface_Color)
+            two_halves_of_easter_egg();
+    }
+    else if (Rendering_Type == "Demo")
+    {
+        demo_easter_eggs();
+    }
+    else
+    {
+        echo("Rendering_Type should be either 'Whole Egg' or 'Two Halves'");
 }
