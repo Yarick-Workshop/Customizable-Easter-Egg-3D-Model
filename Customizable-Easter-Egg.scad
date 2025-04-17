@@ -4,12 +4,13 @@
 // So at the rights of a Pioneer I call it "Ivan's formula" in name of my father.
 
 Rendering_Type="Whole Egg";// [Whole Egg, Two Halves, Demo]
-// The lower the value, the smoother the surface
-Step_Angle = 10;//[1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90]
+// The higher the value, the smoother the surface
+Number_of_Fragments = 30;//[3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180, 360]
 Surface_Color = "Brown";// [Black, Blue, Brown, Chartreuse, Green, Gold, Magenta, Orange, Purple, Red, Silver, Teal, Violet, White, Yellow]
 Egg_Length = 57;
 
-$fn = 360 / Step_Angle;
+$fn = Number_of_Fragments;
+stepAngle = 180 / Number_of_Fragments;
 scalingFactor = Egg_Length / 2;
 
 module rotated_objects(z_r_pairs)
@@ -76,7 +77,7 @@ module demo_Easter_eggs()
 
 module Easter_egg_internal() 
 {
-    egg_points = [for (i = [-90 : Step_Angle : 90])
+    egg_points = [for (i = [-90 : stepAngle : 90])
         let (
              z = sin(i),
              t = 1 + (i + 90) / 180,
