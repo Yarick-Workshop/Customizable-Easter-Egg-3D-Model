@@ -1,18 +1,24 @@
+// How I got this formula - just guessed :) (Thanks God!!!)
+// I tried different standard formulas (such as Hügelschäffer one etc.) 
+// but they were either too complex or didn't work as expected.
+// So at the rights of a Pioneer I call it "Ivan's formula" in name of my father.
+
 $fn = 360;
+
 module rotated_objects(z_r_pairs)
 {
-    rotate_extrude(angle=360, convexity=10)
-        //rotate([0, 0, 90])
+    rotate_extrude(angle=360, convexity = 2)
+        rotate([0, 0, 90])
             polygon(z_r_pairs);
 }
 
 module easter_egg() 
 {
-    egg_points = [for (i = [0 : 10 : 180])
+    egg_points = [for (i = [-90 : 1 : 90])
         let (
-             rad = 100,
-             z = sin(i) * rad,
-             r = cos(i) * rad            
+             z = sin(i),
+             t = 1 + (i + 90) / 180,
+             r = t * cos(i) * 0.5 
         ) 
     [ z, r ] ];
     
@@ -21,5 +27,4 @@ module easter_egg()
     echo(len(egg_points));
 }
 
-mirror([0, 0, 1])
-    easter_egg();
+easter_egg();
