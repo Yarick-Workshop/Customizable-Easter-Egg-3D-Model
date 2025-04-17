@@ -3,7 +3,10 @@
 // but they were either too complex or didn't work as expected.
 // So at the rights of a Pioneer I call it "Ivan's formula" in name of my father.
 
-$fn = 360;
+// The lower the value, the smoother the surface
+Step_Angle = 10;//[1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 18, 20, 24, 30, 36, 40, 45, 60]
+$fn = 360 / Step_Angle;
+
 
 module rotated_objects(z_r_pairs)
 {
@@ -14,7 +17,7 @@ module rotated_objects(z_r_pairs)
 
 module easter_egg() 
 {
-    egg_points = [for (i = [-90 : 1 : 90])
+    egg_points = [for (i = [-90 : Step_Angle : 90])
         let (
              z = sin(i),
              t = 1 + (i + 90) / 180,
