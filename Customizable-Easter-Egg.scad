@@ -5,7 +5,7 @@
 
 Rendering_Type="Whole Egg";// [Whole Egg, Two Halves, Demo]
 // The higher the value, the smoother the surface
-Number_of_Fragments = 30;//[3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180, 360]
+Number_of_Fragments = 180;//[3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180, 360]
 Surface_Color = "Brown";// [Black, Blue, Brown, Chartreuse, Green, Gold, Magenta, Orange, Purple, Red, Silver, Teal, Violet, White, Yellow]
 Egg_Length = 57;
 
