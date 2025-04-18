@@ -31,24 +31,31 @@ This 3D model is highly customizable. So you can configure it for you needs.
 
 ### Pre-rendered STL
 
-TODO add
+Options for different "Rendering Type" parameter values:
+* "Whole Egg" – https://t.me/YarickWorkshop/645;
+* "Two Halves" – https://t.me/YarickWorkshop/646.
 
 ### Model Parameters
 
 I used self-explanatory names for OpenSCAD model parameters. But if you still have any questions – [contact me](#contact-me).
 
+```
+TODO add more 
+```
+
 ### Print Settings
 
-TODO add
+Up to you! I think 0.2mm layer thickness will be normal, but 0.1mm would be better!
 
 ### Assembling
 
-TODO add
+In case of the "Two Halves" rendering type, simply remove the stands and use. 
+But if you are printing the "Two Halves" version, glue the printed two halves of the egg together.
 
 ## Contact me
 
 To follow the progress go to my channels:
-  - Telegram: [https://t.me/YarickWorkshop](https://t.me/YarickWorkshop/638)
+  - Telegram: [https://t.me/YarickWorkshop](https://t.me/YarickWorkshop/644)
   - YouTube: https://www.youtube.com/@yarick-workshop
 
 Yeah, they both are in Russian.
