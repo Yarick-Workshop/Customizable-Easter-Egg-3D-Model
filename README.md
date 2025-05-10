@@ -1,5 +1,3 @@
-# Customizable-Easter-Egg-3D-Model
-
 Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 <!-- Thanks to this Guy: https://github.com/santisoler/cc-licenses?tab=readme-ov-file#cc-attribution-noncommercial-sharealike-40-international-->
 This work is licensed under a
@@ -31,7 +29,7 @@ This 3D model is highly customizable. So you can configure it for you needs.
 
 ### Pre-rendered STL
 
-Options for different "Rendering Type" parameter values:
+There are the next options, depending on "Rendering Type":
 * "Whole Egg" – https://t.me/YarickWorkshop/645;
 * "Two Halves" – https://t.me/YarickWorkshop/646.
 
@@ -39,9 +37,9 @@ Options for different "Rendering Type" parameter values:
 
 I used self-explanatory names for OpenSCAD model parameters. But if you still have any questions – [contact me](#contact-me).
 
-```
-TODO add more 
-```
+A video with explanation of the model parameters (in Russian, but with English subtitles): https://youtu.be/cFKoWXV_shI
+
+*I tried to do my best translating subtitles to English. But if you see something could be fixed - [let me know](#contact-me), please! And I will update the text. The same for this article as well. Thank you in advance!*
 
 ### Print Settings
 
@@ -49,7 +47,7 @@ Up to you! I think 0.2mm layer thickness will be normal, but 0.1mm would be bett
 
 ### Assembling
 
-In case of the "Two Halves" rendering type, simply remove the stands and use. 
+In case of the "Whole Egg" rendering type, simply remove the stands and use. 
 But if you are printing the "Two Halves" version, glue the printed two halves of the egg together.
 
 ## Contact me
