@@ -29,16 +29,16 @@ The model was designed for producing on a 3D printer.
 
 ### Pre-rendered STL
 
-This 3D model is highly customizable. So you can configure it for you needs. But if you don't need any customizations there are the following pre-rendered STL files options, depending on the "Rendering Type" parameter:
+This 3D model is highly customizable. So you can configure it to you needs. But if you don't need any customizations there are the following pre-rendered STL files options, depending on the "Rendering Type" parameter:
 * "Whole Egg" – https://t.me/YarickWorkshop/645;
 * "Two Halves" – https://t.me/YarickWorkshop/646;
 * Both - https://www.thingiverse.com/thing:7013394.
 
 ### Model Parameters
 
-I used self-explanatory names for OpenSCAD model parameters. But if you still have any questions – [contact me](#contact-me).
+I tried to use self-explanatory names for OpenSCAD model parameters. But if you still have any questions – [contact me](#contact-me).
 
-A video with explanation of the model parameters (in Russian, but with English subtitles): https://youtu.be/cFKoWXV_shI
+Watch the HOWTO video (in Russian, but with English subtitles): https://youtu.be/cFKoWXV_shI
 
 *I tried to do my best translating subtitles to English. But if you see something could be fixed - [let me know](#contact-me), please! And I will update the text. The same for this article as well. Thank you in advance!*
 
