@@ -80,13 +80,12 @@ module draw_Easter_egg_internal()
     egg_points = [for (i = [-90 : stepAngle : 90])
         let (
              z = sin(i),
-             t = 1 + (i + 90) / 180,
+             t = 2 - (i + 90) / 180,
              r = t * cos(i) * 0.5
         ) 
     [ z, r ] ];
 
-    mirror([0, 0, 1])
-        draw_rotated_objects(egg_points);
+    draw_rotated_objects(egg_points);
 }
 
 scale([scalingFactor, scalingFactor, scalingFactor])
