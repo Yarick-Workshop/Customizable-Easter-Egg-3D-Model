@@ -1,7 +1,10 @@
-// How I got this formula - just guessed :) (Thanks God!!!)
-// I tried different standard formulas (such as Hügelschäffer one etc.) 
-// but they were either too complex or didn't work as expected.
-// So at the rights of a Pioneer I call it "Ivan's formula" in name of my father.
+/*
+    How I got this formula - just guessed :) (Thanks God!!!).
+    Few standard formulas (such as Hügelschäffer one etc.) were tried,
+    but they were either too complex or didn't work as expected.
+
+    So at the rights of a Pioneer I called it "Ivan's formula" in name of my father.
+*/
 
 Rendering_Type="Whole Egg";// [Whole Egg, Two Halves, Demo]
 // The higher the value, the smoother the surface
