@@ -24,12 +24,12 @@ The model was designed for producing on a 3D printer.
 
 ⚠️ Before assembling read the topic to the bottom!
 
-This 3D model is highly customizable. So you can configure it for you needs.
+
 
 
 ### Pre-rendered STL
 
-There are the next options, depending on "Rendering Type":
+This 3D model is highly customizable. So you can configure it for you needs. But if you don't need any customizations there are the following pre-rendered STL files options, depending on the "Rendering Type" parameter:
 * "Whole Egg" – https://t.me/YarickWorkshop/645;
 * "Two Halves" – https://t.me/YarickWorkshop/646;
 * Both - https://www.thingiverse.com/thing:7013394.
