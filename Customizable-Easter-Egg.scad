@@ -8,9 +8,14 @@
 
 Rendering_Type="Whole Egg";// [Whole Egg, Two Halves, Demo]
 // The higher the value, the smoother the surface
-Number_of_Fragments = 180;//[3, 4, 5, 6, 9, 10, 12, 15, 18, 20, 30, 36, 45, 60, 90, 180, 360]
+Number_of_Fragments = 180;// [3:1:360]
 Surface_Color = "Brown";// [Black, Blue, Brown, Chartreuse, Green, Gold, Magenta, Orange, Purple, Red, Silver, Teal, Violet, White, Yellow]
 Egg_Length = 57;
+
+assert(
+    Number_of_Fragments >= 3 && Number_of_Fragments == floor(Number_of_Fragments),
+    "Number_of_Fragments should be a positive integer value >= 3."
+);
 
 $fn = Number_of_Fragments;
 stepAngle = 180 / Number_of_Fragments;
@@ -80,7 +85,7 @@ module draw_demo_Easter_eggs()
 
 module draw_Easter_egg_internal() 
 {
-    egg_points = [for (i = [-90 : stepAngle : 90])
+    egg_points = [for (i = [-90 : stepAngle : 90])  
         let (
              z = sin(i),
              t = 2 - (i + 90) / 180,
