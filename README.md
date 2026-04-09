@@ -22,6 +22,7 @@ The model was designed for producing on a 3D printer.
   - [Model Parameters](#model-parameters)
   - [Print Settings](#print-settings)
   - [Assembling](#assembling)
+- [Support future projects](#support-future-projects)
 - [Contact me](#contact-me)
 
 ## HOWTO
@@ -53,6 +54,10 @@ In case of the "Whole Egg" rendering type, simply remove the stands and use.
 But if you are printing the "Two Halves" version, glue the printed two halves of the egg together. 
 
 For example, I used double-sided tape. Watch this short clip: https://www.youtube.com/shorts/l5YCRdhCq_c
+
+## Support future projects
+
+You can support this and later work on **Patreon**: [patreon.com/YarickWorkshop](https://www.patreon.com/YarickWorkshop).
 
 ## Contact me
 
