@@ -15,6 +15,15 @@ The model was designed for producing on a 3D printer.
 
 ⚠️ **In case of any questions** – do not hesitate to contact the author in Telegram group ([see below](#contact-me)) and ask.
 
+## Table of contents
+
+- [HOWTO](#howto)
+  - [Pre-rendered STL](#pre-rendered-stl)
+  - [Model Parameters](#model-parameters)
+  - [Print Settings](#print-settings)
+  - [Assembling](#assembling)
+- [Contact me](#contact-me)
+
 ## HOWTO
 
 ⚠️ Before assembling read the topic to the bottom!
