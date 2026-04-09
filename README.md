@@ -1,9 +1,5 @@
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-<!-- Thanks to this Guy: https://github.com/santisoler/cc-licenses?tab=readme-ov-file#cc-attribution-noncommercial-sharealike-40-international-->
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
+Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] This work is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa] [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
 [cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
 [cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
@@ -19,13 +15,9 @@ The model was designed for producing on a 3D printer.
 
 ⚠️ **In case of any questions** – do not hesitate to contact the author in Telegram group ([see below](#contact-me)) and ask.
 
-
 ## HOWTO
 
 ⚠️ Before assembling read the topic to the bottom!
-
-
-
 
 ### Pre-rendered STL
 
@@ -49,7 +41,9 @@ Up to you! I think 0.2mm layer thickness will be normal, but 0.1mm would be bett
 ### Assembling
 
 In case of the "Whole Egg" rendering type, simply remove the stands and use. 
-But if you are printing the "Two Halves" version, glue the printed two halves of the egg together.
+But if you are printing the "Two Halves" version, glue the printed two halves of the egg together. 
+
+For example, I used double-sided tape. Watch this short clip: https://www.youtube.com/shorts/l5YCRdhCq_c
 
 ## Contact me
 
