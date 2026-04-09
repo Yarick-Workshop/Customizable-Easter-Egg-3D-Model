@@ -11,9 +11,9 @@ Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] This work is licen
     <img width="75%" src="media/logo.png">
 </p>
 
-The model was designed for producing on a 3D printer.
+This model is designed for 3D printing.
 
-⚠️ **In case of any questions** – do not hesitate to contact the author in Telegram group ([see below](#contact-me)) and ask.
+⚠️ **If you have any questions** – feel free to contact me in the Telegram group ([see below](#contact-me)).
 
 ## Table of contents
 
@@ -27,22 +27,23 @@ The model was designed for producing on a 3D printer.
 
 ## HOWTO
 
-⚠️ Before assembling read the topic to the bottom!
+⚠️ Before assembling, read this HOWTO through to the end!
 
 ### Pre-rendered STL
 
-This 3D model is highly customizable. So you can configure it to you needs. But if you don't need any customizations there are the following pre-rendered STL files options, depending on the "Rendering Type" parameter:
+This 3D model is highly customizable, so you can configure it to your needs. If you do not need any customization, the following pre-rendered STL files are available, depending on the "Rendering Type" parameter:
+
 * "Whole Egg" – https://t.me/YarickWorkshop/645;
 * "Two Halves" – https://t.me/YarickWorkshop/646;
-* Both - https://www.thingiverse.com/thing:7013394.
+* Both – https://www.thingiverse.com/thing:7013394.
 
 ### Model Parameters
 
-I tried to use self-explanatory names for OpenSCAD model parameters. But if you still have any questions – [contact me](#contact-me).
+I tried to use self-explanatory names for the OpenSCAD model parameters. If anything is unclear – [contact me](#contact-me).
 
 Watch the HOWTO video (in Russian, but with English subtitles): https://youtu.be/cFKoWXV_shI
 
-*I tried to do my best translating subtitles to English. But if you see something could be fixed - [let me know](#contact-me), please! And I will update the text. The same for this article as well. Thank you in advance!*
+*I did my best translating the subtitles into English. If you spot something that could be improved, [let me know](#contact-me), please – I will update the text. The same goes for this README. Thank you in advance!*
 
 ### Print Settings
 
@@ -50,24 +51,24 @@ Up to you! I think 0.2mm layer thickness will be normal, but 0.1mm would be bett
 
 ### Assembling
 
-In case of the "Whole Egg" rendering type, simply remove the stands and use. 
-But if you are printing the "Two Halves" version, glue the printed two halves of the egg together. 
+For the "Whole Egg" rendering type, remove the stands and use the model as is.
+For the "Two Halves" version, glue the printed halves together.
 
 For example, I used double-sided tape. Watch this short clip: https://www.youtube.com/shorts/l5YCRdhCq_c
 
 ## Support future projects
 
-You can support this and later work on **Patreon**: [patreon.com/YarickWorkshop](https://www.patreon.com/YarickWorkshop).
+You can support this project and future work on **Patreon**: [patreon.com/YarickWorkshop](https://www.patreon.com/YarickWorkshop).
 
 ## Contact me
 
-To follow the progress go to my channels:
+To follow my progress, use these channels:
   - Telegram: [https://t.me/YarickWorkshop](https://t.me/YarickWorkshop/644)
   - YouTube: https://www.youtube.com/@yarick-workshop
 
-Yeah, they both are in Russian.
+Both channels are in Russian.
 
-**If you have any questions** – contact me in either Telegram channel (see above) or Mail: techno.man.983@gmail.com. I can communicate in English without any problems. 
+**If you have any questions** – contact me on either Telegram channel (see above) or by email: techno.man.983@gmail.com. I am happy to communicate in English.
 
-⚠️ **Pay attention**: I do not answer to any comments on YouTube (despite I read them). Why? It is a HUGE secret 🙃
+⚠️ **Please note**: I do not reply to YouTube comments (even though I read them). Why? It is a HUGE secret 🙃
 
